@@ -6,10 +6,16 @@ if(isset($_POST["submit"])) {
     $uploadOk = 1;
     $fileType = strtolower(pathinfo($targetFile,PATHINFO_EXTENSION));
 
-    // Check if file is a PDF
-    if($fileType != "pdf" || $fileType != "jpeg" || $fileType != "png" || $fileType != "jpg") {
-        echo "Pas le bon format  de fichier.";
-        $uploadOk = 0;
+    // Check if file is a PDF or an image
+    if($fileType != "pdf" ) {
+        if ($fileType != "png"){
+            if ($fileType != "jpg") {
+                if ($fileType != "jpeg") {
+                    echo "Seuls les fichiers PDF, PNG, JPG et JPEG sont autorisés.";
+                    $uploadOk = 0;
+                }
+            }
+        }
     }
 
     // Check if file already exists
@@ -19,10 +25,11 @@ if(isset($_POST["submit"])) {
     }
 
     // Check file size
-    if ($_FILES["fileToUpload"]["size"] > 500000) {
-        echo "Le fichier est trop volumineux.";
-        $uploadOk = 0;
-    }
+    //if ($_FILES["fileToUpload"]["size"] > 500000) {
+        
+        //echo "Le fichier est trop volumineux.";
+      //  $uploadOk = 0;
+    //}
 
     // Upload file if all checks pass
     if ($uploadOk == 1) {

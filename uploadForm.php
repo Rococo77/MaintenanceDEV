@@ -18,6 +18,9 @@
                 </form>
                 <a href="index.php">Retour</a>
             </div>
+            <footer>
+                <p>@Copyright 2024 Web Turbo Cavern</p>
+            </footer>
            
         </div>
     </div>

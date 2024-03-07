@@ -17,13 +17,14 @@ body{
     padding: 10px;
     background-color: #fff;
     border-radius: 30px;
+    background-image: linear-gradient(to top, #fff0 0%, #fff 100%);
     
 
 }
 .corp{
     text-align: center;
     margin: 20px 0;
-    background-image: linear-gradient(to top, #fff0 0%, #fff 100%);
+    
 }
 img{
     width: 100px;
