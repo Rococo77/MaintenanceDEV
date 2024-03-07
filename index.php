@@ -16,8 +16,12 @@
             </div>
             <div>
                 <p>Corentin ROSSETTO</p>
+                <p>Groupe : Anjara Pringault Telo Thomas</p>
                 <a href="uploadForm.php">Upload your file !</a>
             </div>
+            <footer>
+                <p>@Copyright 2024 Web Turbo Cavern</p>
+            </footer>
         </div>
     </div>
 </body>
