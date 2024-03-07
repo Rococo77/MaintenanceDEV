@@ -12,7 +12,7 @@
         <div class="corp">
             <?php require 'header.php'; ?>
             <div class="img">
-                <img src="652d4c37_2022.jpg" alt="photo de profil">
+                <img src="652d4c37_2022.jpg" alt="Corentin Tolisso">
             </div>
             <div>
                 <p>Corentin ROSSETTO</p>
