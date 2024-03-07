@@ -10,14 +10,13 @@
 <body>
     <div class = "container">
         <div class="corp">
-            <div class="entete">
-                <h1>Formulaire d'upload de fichier</h1>
-            </div>
+            <?php require 'header.php'; ?>
             <div class="form">
-                <form action="index.php" method="POST" enctype="multipart/form-data">
+                <form action="systupload.php" method="POST" enctype="multipart/form-data">
                     <input type="file" name="fileToUpload" id="fileToUpload">
                     <input type="submit" value="Upload" name="submit">
                 </form>
+                <a href="index.php">Retour</a>
             </div>
            
         </div>

@@ -1,36 +1,24 @@
-<?php
-
-if(isset($_POST["submit"])) {
-    $targetDir = "uploads/";
-    $targetFile = $targetDir . basename($_FILES["fileToUpload"]["name"]);
-    $uploadOk = 1;
-    $fileType = strtolower(pathinfo($targetFile,PATHINFO_EXTENSION));
-
-    // Check if file is a PDF
-    if($fileType != "pdf") {
-        echo "Seuls les fichiers PDF sont autorisés.";
-        $uploadOk = 0;
-    }
-
-    // Check if file already exists
-    if (file_exists($targetFile)) {
-        echo "Le fichier existe déjà.";
-        $uploadOk = 0;
-    }
-
-    // Check file size
-    if ($_FILES["fileToUpload"]["size"] > 500000) {
-        echo "Le fichier est trop volumineux.";
-        $uploadOk = 0;
-    }
-
-    // Upload file if all checks pass
-    if ($uploadOk == 1) {
-        if (move_uploaded_file($_FILES["fileToUpload"]["tmp_name"], $targetFile)) {
-            echo "Le fichier ". basename( $_FILES["fileToUpload"]["name"]). " a été uploadé avec succès.";
-        } else {
-            echo "Une erreur est survenue lors de l'upload du fichier.";
-        }
-    }
-}
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Peer-Learning</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+</head>
+<body>
+    <div class = "container">
+        <div class="corp">
+            <?php require 'header.php'; ?>
+            <div class="img">
+                <img src="652d4c37_2022.jpg" alt="photo de profil">
+            </div>
+            <div>
+                <p>Corentin ROSSETTO</p>
+                <a href="uploadForm.php">Upload your file !</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
