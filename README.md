@@ -1,11 +1,11 @@
 ## WebLearning Turbo
  Plateforme de peer-learning pour l'EPSI Lille.
 
-# # Fichiers
+#  Fichiers
 # header.php
 Ce fichier contient le code HTML pour l'en-tête de la page, qui comprend le titre du site et un sous-titre. Il est inclus dans chaque page à l'aide de la fonction require.
 
-# # footer.php
+#  footer.php
 Ce fichier contient le code HTML pour le pied de page de la page, qui comprend le copyright. Il est inclus dans chaque page à l'aide de la fonction require.
 
 # index.php
