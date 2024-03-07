@@ -17,7 +17,7 @@ body {
   margin: auto;
   overflow: hidden;
   justify-content: space-between;
-  align-items: center;
+  align-items: stretch;
   padding: 10px;
   border-radius: 30px;
   background-image: linear-gradient(to top, #fff0 5%, #fff 100%);
