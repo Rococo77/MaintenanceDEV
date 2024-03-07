@@ -5,7 +5,7 @@
         <meta http-equiv='X-UA-Compatible' content='IE=edge'>
         <title>Upload</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+        <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
     </head>
 <body>
     <div class = "container">
@@ -18,10 +18,7 @@
                 </form>
                 <a href="index.php">Retour</a>
             </div>
-            <footer>
-                <p>@Copyright 2024 Web Turbo Cavern</p>
-            </footer>
-           
+           <?php require 'footer.php'; ?>
         </div>
     </div>
 </body>
