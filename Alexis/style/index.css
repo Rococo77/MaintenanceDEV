@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    color: green
+}
+h3{
+    color:green;
+}
+
+p{
+    color : green;
+}
+img{
+    width: 95px ;
+}
+button{
+    margin-top:10px;
+}
+container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 30% 10px 30%; 
+    padding: 15px; 
+    border: 2px solid #ddd;
+    border-radius: 10px;
+}
+#uploadForm {
+    display: none; /* Masquer le formulaire par défaut */
+}
+button{
+    margin-top: 5px;
+}
+.inline {
+    display: inline;
+}
