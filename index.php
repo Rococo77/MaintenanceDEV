@@ -16,7 +16,7 @@
             </div>
             <div>
                 <p>Corentin ROSSETTO</p> <!-- Nom de l'étudiant -->
-                <p>Groupe : Anjara Pringault Telo Thomas</p> <!-- Nom du groupe -->
+                <p>Groupe : Anjara Pringault Alexis LHUSSIEZ</p> <!-- Nom du groupe -->
                 <a href="uploadForm.php">Upload your file !</a> <!-- Lien vers la page d'upload de fichier -->
             </div>
             <?php require 'footer.php'; ?> <!-- Inclusion du footer -->
