@@ -20,7 +20,7 @@
             <p class="inline">Corentin Rossetto</p>
         </div>
         <p>Groupe: Melvin Malagowski, Bastien Passet</p>
-        <p>10/20 : Facile de modifier dans l'ensemble, cependant certaines fonction de base comme include le hearder sont manquantes. De plus, le mimetype pour un fichier word n'est pas évidement à connaitre. </p>
+        <p>12/20 : Facile de modifier dans l'ensemble, cependant certaines fonction de base comme include le header sont manquantes. De plus, le mimetype pour un fichier word n'est pas évidement à connaitre. </p>
 
         <button id="showFormButton">Afficher le formulaire</button>
 

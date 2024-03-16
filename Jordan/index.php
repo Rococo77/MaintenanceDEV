@@ -26,7 +26,7 @@
                      <div> Jordan Rondelli</div>
                   <div>Cprentin ROSSETTO</div>
                   <div> Maxence LANDA, Reda Khouya</div>
-                  <div>15/20 : Facile à modifier dans l'ensemble</div>
+                  <div>16/20 : Facile à modifier dans l'ensemble</div>
                   </div>
                   
                </div>
